@@ -10,7 +10,7 @@ export const Main = () => {
             <span>sou o Sergio 👋</span>
           </h1>
           <div className="text-lg font-semibold md:text-3xl">
-            Desenvolvedor <span className="text-blue-600">Back-stack</span>
+            Desenvolvedor <span className="text-blue-600">Back-end</span>
           </div>
         </div>
         <div>
