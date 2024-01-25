@@ -25,6 +25,7 @@ export const ProjectModal = ({
       <Dialog.Overlay className="bg-black/60 inset-0 fixed" />
       <Dialog.Content className="fixed w-[350px] md:w-[700px] bg-[#1f2937]  py-6  px-5 md:px-10 text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-lg shadow-lg shadow-black/25 my-4">
         <div className="flex justify-between">
+          <div></div>
           <Dialog.Title>{title}</Dialog.Title>
           <Dialog.Close>
             <X size={25} />
@@ -39,12 +40,6 @@ export const ProjectModal = ({
             </p>
 
             <div className="flex gap-6 mt-2 text-base">
-              <div className="flex gap-1 items-center hover:text-blue-600 hover:transition-colors">
-                <Computer />
-                <a href={demo} target="_blank">
-                  Demo
-                </a>
-              </div>
               <div className="flex gap-1 items-center hover:text-blue-600 hover:transition-colors">
                 <Github />
                 <a href={repo} target="_blank">

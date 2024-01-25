@@ -22,6 +22,16 @@ export const projects = [
   },
   {
     id: uuid(),
+    title: "Scale Generator API",
+    image: Java_SpringImage,
+    description:
+      "Este projeto é uma implementação de um gerador de escalas de trabalho, onde é possível cadastrar escalas associadas a um título específico, mês, ano e um conjunto de dias da semana. ",
+    technologies: ["Java", "Spring Boot", "Spring JPA", "Lombok", "PostgreSQL"],
+    repo: "https://github.com/sergiowinkelstroter/scale_generator",
+    demo: "",
+  },
+  {
+    id: uuid(),
     title: "Todo List API",
     image: Java_SpringImage,
     description: "API para gerenciar tarefas (CRUD)",
@@ -33,15 +43,6 @@ export const projects = [
       "Swagger",
     ],
     repo: "https://github.com/sergiowinkelstroter/api_todo_list",
-    demo: "",
-  },
-  {
-    id: uuid(),
-    title: "File Storage API",
-    image: Java_SpringImage,
-    description: "API para upload e download e arquivos",
-    technologies: ["Java", "Spring Boot", "Spring MVC"],
-    repo: "https://github.com/sergiowinkelstroter/file_storage_api",
     demo: "",
   },
 ];

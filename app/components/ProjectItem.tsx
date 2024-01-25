@@ -27,7 +27,6 @@ export const ProjectItem = ({
     >
       <Image src={image} alt="" width={300} height={300} />
       <div className="bg-[#1f2937] w-full flex flex-col justify-between p-4 rounded-b-md ">
-        <span className="mt-1 text-xs">{technologies.join(", ")}</span>
         <div className="flex justify-between mt-4 items-center  md:flex-row px-4">
           <a
             target="_blank"
