@@ -1,4 +1,4 @@
-import { skillsBE } from "@/constants/skills";
+import { skillsBE } from "@/src/constants/skills";
 import { SkillComponent } from "./SkillComponent";
 import * as Tabs from "@radix-ui/react-tabs";
 

@@ -1,4 +1,4 @@
-import { projects } from "@/constants/projects";
+import { projects } from "@/src/constants/projects";
 import { ProjectItem } from "./ProjectItem";
 import Link from "next/link";
 

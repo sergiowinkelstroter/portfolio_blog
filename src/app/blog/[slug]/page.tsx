@@ -1,6 +1,6 @@
 "use server";
 import ReactMarkdown from "react-markdown";
-import { getPost } from "@/app/_services/notion";
+import { getPost } from "@/src/app/_services/notion";
 import { ArrowLeft, Ban } from "lucide-react";
 import Link from "next/link";
 
